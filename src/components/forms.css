@@ -1,0 +1,99 @@
+
+  .contact_form {
+    width: 100%;
+    background: url('./images/space.jpg') no-repeat center center fixed;
+    background-size: cover;
+    align-items: center;
+  }
+  
+  .contact_form h2 {
+    font-family:"MuseoModerno", sans-serif;
+font-size: 60px;
+font-weight: 400;
+line-height: 95.4px;
+text-align: left;
+color: #fff;
+    text-align: center;
+    margin: 0%;
+  }
+  span{
+    font-family: "Josefin Slab" , sans-serif;
+font-size: 28px;
+font-weight: 300;
+line-height: 28px;
+text-align: left;
+
+  }
+  .contact_form label{
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 32px;
+    line-height: 44.74px;
+    text-align: left;
+    color: #fff;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 200;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  textarea {
+    font-size: medium;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    align-self: center;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #fff;
+    color: black;
+  }
+  
+  .form-group.inline {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-group.inline .form-group {
+    width: 48%;
+  }
+  

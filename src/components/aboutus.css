@@ -1,0 +1,49 @@
+.about {
+    height: 480px;
+    top: 5px;
+    gap: 20px; /* Adjust the gap between .phototeam and .description */
+    opacity: 1;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    position: relative; /* Adding position relative */
+  }
+  
+  
+  .heading {
+    margin-top: 0px;
+    margin-left: 43px;
+    margin-bottom: 0;
+    width: 322px;
+    height: 110px;
+    font-family: "MuseoModerno", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 95.4px;
+  }
+  
+  .description{
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    width: 884px;
+    height: 280px;
+    font-family: "Moulpali", sans-serif; 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35.16px;
+    font-weight: 700;
+  }
+  
+  .phototeam {
+    width: 740px;
+    height: 480px;
+    margin-right: 50px;
+    opacity: 1; /* Adjust opacity as needed */
+  }
+
+
+
+
+  
