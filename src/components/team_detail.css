@@ -35,5 +35,141 @@
     height: auto;
     margin-bottom: 10px;
   }
+@media (max-width: 1200px) {
+    .container_reg {
+      height: 250px; 
+    }
+    .vyadh, .seds, .vit {
+      width: 300px; 
+    }
+    .location {
+      left: 900px;
+    }
+    .noice {
+      left: 200px; 
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .container_reg {
+      height: 210px;
+    }
+    .vyadh, .seds, .vit {
+      width: 200px; 
+    }
+    .vyadh {
+      left: 50px; 
+    }
+    .seds {
+      left: 35%;
+    }
+    .vit {
+      left: 65%;
+    }
+    .location {
+      left: 700px; 
+    }
+    .noice {
+      left: 150px; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container_reg {
+      height: 180px; 
+    }
+    .vyadh, .seds, .vit {
+      width: 150px; 
+    }
+    .vyadh {
+      left: 20px; 
+    }
+    .seds {
+      left: 30%;
+    }
+    .vit {
+      left: 60%;
+    }
+    .location {
+      left: 500px; 
+    }
+    .noice {
+      left: 100px; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container_reg {
+      height: 150px; 
+    }
+    .vyadh, .seds, .vit {
+      width: 100px; 
+    }
+    .vyadh {
+      left: 10px; 
+    }
+    .seds {
+      left: 25%;
+    }
+    .vit {
+      left: 55%;
+    }
+    .location {
+      left: 300px; 
+    }
+    .noice {
+      left: 50px; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .details {
+      display: block; 
+    }
+    .location {
+      display: block; 
+      position: static;
+      margin-top: 20px;
+    }
+    .noice {
+      display: block; 
+      position: static;
+      margin-top: 20px;
+    }
+    .map-image {
+      width: 80%; 
+      max-width: 300px; 
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .container_reg {
+      flex-direction: column;
+      height: auto; 
+    }
+    .vyadh, .seds, .vit {
+      width: 80px; 
+      position: static; 
+      margin: 10px auto; 
+    }
+    .details {
+      display: block; 
+    }
+    .location {
+      display: block; 
+      position: static;
+      margin: 10px auto;
+    }
+    .noice {
+      display: block; 
+      position: static;
+      margin: 10px auto;
+    }
+    .map-image {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  }
 
   
