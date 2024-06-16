@@ -65,4 +65,54 @@ p {
     max-height: 300px;
     margin-top: 80px;
 }
-
+@media (max-width: 1200px) {
+    .team_head {
+      font-size: 50px;
+    }
+  
+    .domain_subheading {
+      font-size: 30px;
+    }
+  
+    p {
+      font-size: 20px;
+    }
+  
+    .domain_description {
+      max-width: 700px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .team {
+      padding: 10px;
+    }
+  
+    .team_head {
+      font-size: 40px;
+    }
+  
+    .domain {
+      flex-direction: column;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .domain_subheading {
+      font-size: 25px;
+      text-align: center;
+    }
+  
+    .domain_description {
+      max-width: 100%;
+      border-radius: 20px;
+      border: 2px dotted white;
+      padding: 15px;
+      text-align: center;
+    }
+  
+    .lo {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  }
