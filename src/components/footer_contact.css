@@ -34,3 +34,77 @@ gap: 0px;
 opacity: 0px;
 
 }
+@media (max-width: 1200px) {
+  .container_reg {
+    height: 250px; 
+  }
+  .vyadh, .seds, .vit {
+    width: 300px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container_reg {
+    height: 210px; 
+  }
+  .vyadh, .seds, .vit {
+    width: 200px; 
+  }
+  .vyadh {
+    left: 50px;
+  }
+  .seds {
+    left: 35%;
+  }
+  .vit {
+    left: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container_reg {
+    height: 180px; 
+  }
+  .vyadh, .seds, .vit {
+    width: 150px;
+  }
+  .vyadh {
+    left: 20px; 
+  }
+  .seds {
+    left: 30%;
+  }
+  .vit {
+    left: 60%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container_reg {
+    height: 150px; 
+  }
+  .vyadh, .seds, .vit {
+    width: 100px; 
+  }
+  .vyadh {
+    left: 10px;
+  }
+  .seds {
+    left: 25%;
+  }
+  .vit {
+    left: 55%;
+  }
+}
+
+@media (max-width: 400px) {
+  .container_reg {
+    flex-direction: column;
+    height: auto; 
+  }
+  .vyadh, .seds, .vit {
+    width: 80px; 
+    position: static; 
+    margin: 10px auto; 
+  }
+}
