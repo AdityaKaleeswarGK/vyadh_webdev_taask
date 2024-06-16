@@ -106,3 +106,125 @@
     left: 36%;
     bottom: 0%;
 }
+@media (max-width: 1200px) {
+    .reach-out-title {
+        font-size: 60px;
+        left: 150px;
+    }
+
+    .nah {
+        margin-top: 50px;
+        left: 100px;
+    }
+
+    .vyadh-logo {
+        left: 1000px;
+        width: 300px;
+        height: 200px;
+    }
+
+    .contact-item p {
+        font-size: 25px;
+    }
+
+    .contact-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .follow-us h2, .contact-us h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .reach-out {
+        height: auto;
+        padding: 10px;
+    }
+
+    .reach-out-title {
+        font-size: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 10px;
+    }
+
+    .reach-out-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nah {
+        position: relative;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .follow-us, .contact-us {
+        align-items: center;
+    }
+
+    .vyadh-logo {
+        position: relative;
+        left: 0;
+        width: 250px;
+        height: 150px;
+        margin: 20px 0;
+    }
+
+    .divider {
+        height: 5px;
+        width: 90%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .contact-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-item p {
+        font-size: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contact-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .follow-us h2, .contact-us h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .contact-us h2 {
+        margin-top: 200px;
+    }
+
+    .footer-text {
+        font-size: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10px;
+        text-align: center;
+    }
+    .contact-us{
+        margin-left: 0%;
+    }
+
+}
